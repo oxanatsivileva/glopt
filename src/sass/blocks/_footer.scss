@@ -1,0 +1,77 @@
+.footer {
+    background-color: #25333c;
+    min-height: 201px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__promo {
+        display: flex;
+        flex-direction: row;
+    }
+    &__logo {
+        padding-top: 24px;
+    }
+    &__text {
+        padding: 54px 0 50px 44px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        color: #ffffff;
+    }
+    &__contacts {
+        height: 45px;;
+        display: flex;
+        flex-direction: row;
+        padding-top: 38px;
+    }
+    &__call {
+        padding-right: 19px;
+    }
+
+    &__question {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #ffffff;
+        text-align: right;
+    }
+    &__phone {
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 24px;
+        text-align: right;
+        color: #ffffff;
+    }
+    &__divider {
+        width: 1171px;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 26px auto 0 auto;
+    }
+    &__info {
+        padding: 30px 0 36px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__mark {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__policy {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        color: $main-color;
+        &:hover {
+            color: $main-color;
+        }
+    }
+
+    
+
+}

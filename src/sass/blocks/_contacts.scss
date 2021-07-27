@@ -1,0 +1,39 @@
+.contacts {
+    height: 500px;
+    position: relative;
+    &__info {
+        position: absolute;
+        top: 130px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 325px;
+        height: 158px;
+        background-color: #ffffff;
+        padding: 27px 49px 28px 49px;
+        &:before {
+            content: "";
+            position: absolute;
+            right: 100%;
+            border: solid transparent;
+            bottom: 50%;
+            border-right-color: white;
+            border-width: 25px;
+            margin-bottom: -25px;
+        }
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        color: #3a3a3a;
+    }
+    &__link {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        color: $main-color;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}

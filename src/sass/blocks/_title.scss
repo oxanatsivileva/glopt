@@ -1,0 +1,33 @@
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2e2e2e;
+    &_fz16 {
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: none;
+        text-align-last: left;
+        color: $main-color;
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: none;
+        color: $main-color;
+    }
+    &_fz26 {
+        text-transform: none;
+        color: #ffffff;
+    }
+    &_fz28 {
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: none;
+        color: #3a3a3a;
+    }
+
+
+}

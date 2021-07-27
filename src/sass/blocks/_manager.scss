@@ -1,0 +1,21 @@
+.manager {
+    min-height: 342px;
+	background: url("../img/manager.jpg") center (center/cover) no-repeat;
+    &__wrapper {
+        padding: 58px 107px 76px 109px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__icon {
+        margin-bottom: 20px;
+    }
+    &__descr {
+        margin-top: 18px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        text-align: center;
+        color: #ffffff;
+    }
+}

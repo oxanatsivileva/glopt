@@ -1,0 +1,24 @@
+.advantages {
+    min-height: 590px;
+    padding-top: 58px;
+    background-color: #f3f3f3;
+    &__items {
+        padding: 30px 50px 51px 10px;
+        display: grid;
+        grid-template: repeat(4, minmax(62px, auto)) / repeat(2, 1fr);
+        grid-auto-rows: 1fr;
+        column-gap: 60px;
+        row-gap: 35px;
+        &-item {
+            display: grid;
+            grid-template-columns: 64px 433px;
+            column-gap: 13px;
+        }
+        &-text {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            color: #3a3a3a;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.job {
+    min-height: 619px;
+    padding-top: 51px;
+    &__wrapper {
+        padding-bottom: 57px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 360px;
+    }
+    &__img {
+        margin-bottom: 27px;
+    }
+    &__text {
+        padding: 17px 130px 37px 130px;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        color: #3a3a3a;
+    }
+}
