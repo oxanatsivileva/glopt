@@ -50,7 +50,7 @@
                         <div class="header__text">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="header__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button class="btn">Перезвоните мне</button>
+                    <button data-modal="consultation" class="btn">Перезвоните мне</button>
                 </div>
             </header>
             <div class="promo__wrapper">
@@ -88,7 +88,7 @@
                         <p class="promo__descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг  </p>
                     </div>
                 </div>
-                <button class="promo__btn">Получить расчет</button>
+                <button data-modal="consultation" class="promo__btn">Получить расчет</button>
             </div>
         </div>
     </section>
@@ -239,7 +239,7 @@
                             Морские перевозки грузов из Китая <br>в Россию за 35 дней <br>
                             с прохождением таможни 
                         </p>
-                        <button class="btn">Подробнее</button>
+                        <button data-modal="consultation" class="btn">Подробнее</button>
                     </div>
                 </div>
                 <div class="prices__tab">
@@ -255,7 +255,7 @@
                         <p class="prices__tab-text">
                             ЖД перевозки грузов из Китая в Россию от 2 недель <br>с прохождением таможни
                         </p>
-                        <button class="btn">Подробнее</button>
+                        <button data-modal="consultation" class="btn">Подробнее</button>
                     </div>
                 </div>
                 <div class="prices__tab">
@@ -271,7 +271,7 @@
                         <p class="prices__tab-text">
                             Автоперевозки грузов из Китая в Россию от 2 недель <br>с прохождением таможни                    
                         </p>
-                        <button class="btn">Подробнее</button>    
+                        <button data-modal="consultation" class="btn">Подробнее</button>    
                     </div>
                 </div>
                 <div class="prices__tab">
@@ -287,7 +287,7 @@
                         <p class="prices__tab-text">
                             Авиаперевозки грузов из Китая в Россию до 2 недель <br>с прохождением таможни                    
                         </p>
-                        <button class="btn">Подробнее</button>    
+                        <button data-modal="consultation" class="btn">Подробнее</button>    
                     </div>
                 </div>
             </div>
@@ -297,14 +297,14 @@
     <section class="consultation">
         <div class="container">
             <h2 class="title title_fz28">Заказать бесплатную консультацию</h2>
-            <form action="#" class="consultation__form">
+            <form action="#" class="consultation__form" id="consultation-form">
                 <div class="consultation__form-img">
                     <img src="icons/consultation/cons.png" alt="consultation">
                 </div>
                 <div class="consultation__form-input">
-                    <input class="consultation__input" name="name" required placeholder="Ваше имя..." type="text">
-                    <input class="consultation__input" name="phone" required placeholder="Ваш номер телефона..." type="number">
-                    <input class="consultation__input" name="email" required placeholder="Ваш e-mail..." type="email">
+                    <input class="consultation__input" name="name" placeholder="Ваше имя..." type="text">
+                    <input class="consultation__input" name="phone" placeholder="Ваш номер телефона...">
+                    <input class="consultation__input" name="email" placeholder="Ваш e-mail..." type="email">
                 </div>
                 <div class="consultation__form-btn">
                     <button class="btn">Отправить заявку</button>
@@ -443,18 +443,17 @@
                     <div class="questions__title">Остались вопросы?</div>
                     <div class="questions__subtitle">Напишите нам!</div>
                 </div>
-                <div class="questions__form">
+                <form class="questions__form" action="#" id="questions-form">
                     <div class="questions__form-input">
                         <input class="questions__input" name="name" required placeholder="Ваше имя..." type="text">
-                        <input class="questions__input" name="phone" required placeholder="Ваш номер телефона..." type="number">
+                        <input class="questions__input" name="phone" required placeholder="Ваш номер телефона...">
                         <input class="questions__input" name="email" required placeholder="Ваш e-mail..." type="email">
                     </div>
                     <textarea class="questions__textarea" name="text" required placeholder="Сообщение..."></textarea>
                     <div class="questions__form-btn">
                         <button class="btn">Отправить заявку</button>
                     </div>
-                </div>
-    
+                </form>
             </div>
         </div>
     </section>
@@ -486,7 +485,7 @@
                         <div class="footer__question">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="footer__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button class="btn">Перезвоните мне</button>
+                    <button data-modal="consultation" class="btn">Перезвоните мне</button>
                 </div>    
             </div>
         </div>
@@ -500,10 +499,38 @@
         </div>
     </footer>
 
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__header">
+                <div class="modal__title">Просто заполните форму заявки</div>
+                <div class="modal__subtitle">и мы перезвоним вам в течении 10 минут</div>
+                <div class="modal__close">&times;</div>
+            </div>
+            <form class="modal__form" action="#">
+                <div class="modal__form-input">
+                    <input class="modal__input" name="name" required placeholder="Ваше имя..." type="text">
+                    <input class="modal__input" name="phone" required placeholder="Ваш номер телефона...">
+                    <input class="modal__input" name="email" required placeholder="Ваш e-mail..." type="email">
+                </div>
+                <div class="modal__form-btn">
+                    <button class="btn">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__title">Спасибо за вашу заявку</div>
+            <div class="modal__subtitle">Наш менеджер свяжется с вами в ближайшее время</div>
+            <div class="modal__close">&times;</div>
+        </div>
+    </div>
+
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

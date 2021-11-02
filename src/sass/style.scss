@@ -1,41 +1,41 @@
-@import 'libs/_bootstrap-reboot.min';
-@import 'libs/slick';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import "libs/_bootstrap-reboot.min";
+@import "libs/slick";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
-@import 'base/_variables';
-@import 'base/_mixins';
+@import "base/_variables";
+@import "base/_mixins";
 
 * {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-    
+
 .container {
-    width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .divider {
-    width: 148px;
-    height: 1px;
-    background-color: $main-color;
-    margin: 20px auto 0 auto;
+  width: 148px;
+  height: 1px;
+  background-color: $main-color;
+  margin: 20px auto 0 auto;
 }
 
-@import 'blocks/_promo';
-@import 'blocks/header';
-@import 'blocks/button';
-@import 'blocks/advantages';
-@import 'blocks/title';
-@import 'blocks/job';
-@import 'blocks/agent';
-@import 'blocks/prices';
-@import 'blocks/consultation';
-@import 'blocks/manager';
-@import 'blocks/schema';
-@import 'blocks/feed';
-@import 'blocks/questions';
-@import 'blocks/contacts';
+@import "blocks/_promo";
+@import "blocks/header";
+@import "blocks/button";
+@import "blocks/advantages";
+@import "blocks/title";
+@import "blocks/job";
+@import "blocks/agent";
+@import "blocks/prices";
+@import "blocks/consultation";
+@import "blocks/manager";
+@import "blocks/schema";
+@import "blocks/feed";
+@import "blocks/questions";
+@import "blocks/contacts";
 @import "blocks/footer";
-
+@import "blocks/modal";

@@ -1,13 +1,19 @@
-.questions {
-  min-height: 438px;
-  padding: 62px 0 79px 0;
-  background: url("../img/questions.jpg") center (center/cover) no-repeat;
-  &__request {
-    margin: 0 auto;
-    width: 896px;
-    min-height: 297px;
-    background-color: rgba(#fff, 0.7);
-  }
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba($color: #000000, $alpha: 0.56);
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 896px;
+  min-height: 225px;
+  background-color: rgba(#fff, 0.7);
   &__header {
     padding-top: 12px;
     height: 68px;
@@ -28,12 +34,21 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+  &__close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 33px;
+    line-height: 21px;
+    color: $main-color;
+    cursor: pointer;
+  }
   &__form {
     display: flex;
     flex-direction: column;
     align-items: center;
     &-input {
-      margin-top: 18px;
+      margin: 18px 0;
     }
   }
   &__input {
@@ -47,16 +62,22 @@
     line-height: 24px;
     color: rgba(16, 16, 16, 0.7);
   }
-  &__textarea {
-    margin: 8px 0 17px 0;
-    width: 813px;
-    height: 71px;
-    padding: 18px 25px;
-    border: solid 1px rgba(0, 0, 0, 0.21);
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight: 300;
-    color: rgba(16, 16, 16, 0.7);
-    resize: none;
+  &_mini {
+    width: 518px;
+    min-height: 125px;
+    padding-top: 30px;
+    background-color: #25333c;
   }
+}
+
+.error {
+  border: 1px solid red;
+}
+label.error {
+  border: none;
+}
+
+#consultation,
+#thanks {
+  display: none;
 }
