@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+
   &__logo {
     img {
       padding-top: 5px;
@@ -8,40 +9,49 @@
       height: 99px;
     }
   }
+
   &__nav {
     width: 600px;
   }
+
   &__menu {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
     list-style-type: none;
   }
+
   &__link {
     font-size: 15px;
     font-weight: 400;
     line-height: 17px;
     color: #ffffff;
+
     &:hover {
       color: $main-color;
     }
   }
+
   &__item {
     border-right: 1px dotted rgba(255, 255, 255, 0.4);
     padding: 0 12px 0 8px;
+
     &:last-child {
       border-right: none;
     }
   }
+
   &__contacts {
-    height: 45px;
+    min-height: 45px;
     display: flex;
     flex-direction: row;
     padding-top: 25px;
   }
+
   &__call {
     padding-right: 19px;
   }
+
   &__text {
     font-size: 14px;
     font-weight: 300;
@@ -49,14 +59,20 @@
     text-align: right;
     color: #ffffff;
   }
+
   &__phone {
     font-size: 19px;
     font-weight: 700;
     line-height: 24px;
     text-align: right;
     color: #ffffff;
+
     &:hover {
       color: $main-color;
     }
   }
+}
+
+.hamburger {
+  display: none;
 }

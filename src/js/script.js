@@ -1,5 +1,7 @@
 'use strict';
 
+// Slider
+
 $(document).ready(function(){
   $('.feed__slider').slick({
     infinite: true,
@@ -8,7 +10,16 @@ $(document).ready(function(){
     slidesToScroll: 1,
     centerMode: true,
     prevArrow: '<button type="button" class="slick-prev"><img src="../icons/left.svg"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.svg"></button>'
+    nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.svg"></button>',
+    responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+    ]
   });
 
   // Modal
@@ -54,21 +65,24 @@ $(document).ready(function(){
 
   $('input[name=phone]').mask("+7 (999) 999-9999");
 
-  
-  // $('form').submit(function(e) {
-  //   e.preventDefault();
-  //   $.ajax({
-  //     type: "POST",
-  //     url: "mailer/smart.php",
-  //     data: $(this).serialize()
-  //   }).done(function() {
-  //     $(this).find("input").val("");
-  //     $('#consultation').fadeOut();
-  //     $('.overlay, #thanks').fadeIn('slow');
 
-  //     $('form').trigger('reset');
-  //   });
-  //     return false;
-  // });
+  
+  const menu = document.querySelector('.header__menu'),
+    menuItem = document.querySelectorAll('.header__item'),
+    hamburger = document.querySelector('.hamburger__wrapper');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('hamburger__wrapper_active');
+        menu.classList.toggle('header__menu_active');
+    });
+
+    menuItem.forEach(item => {
+        item.addEventListener('click', () => {
+            hamburger.classList.toggle('hamburger__wrapper_active');
+            menu.classList.toggle('header__menu_active');
+        });
+    });
+  
+
 });
 

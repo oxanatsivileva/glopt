@@ -4,8 +4,10 @@
   width: 100%;
   height: 100%;
   top: 0;
+  z-index: 5;
   background-color: rgba($color: #000000, $alpha: 0.56);
 }
+
 .modal {
   position: absolute;
   top: 50%;
@@ -14,11 +16,13 @@
   width: 896px;
   min-height: 225px;
   background-color: rgba(#fff, 0.7);
+
   &__header {
     padding-top: 12px;
     height: 68px;
     background-color: #25333c;
   }
+
   &__title {
     font-size: 19px;
     font-weight: 700;
@@ -26,6 +30,7 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+
   &__subtitle {
     font-size: 14px;
     font-weight: 400;
@@ -34,6 +39,7 @@
     text-transform: uppercase;
     color: #ffffff;
   }
+
   &__close {
     position: absolute;
     top: 10px;
@@ -43,14 +49,17 @@
     color: $main-color;
     cursor: pointer;
   }
+
   &__form {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     &-input {
       margin: 18px 0;
     }
   }
+
   &__input {
     width: 268px;
     height: 45px;
@@ -62,6 +71,7 @@
     line-height: 24px;
     color: rgba(16, 16, 16, 0.7);
   }
+
   &_mini {
     width: 518px;
     min-height: 125px;
@@ -73,6 +83,7 @@
 .error {
   border: 1px solid red;
 }
+
 label.error {
   border: none;
 }

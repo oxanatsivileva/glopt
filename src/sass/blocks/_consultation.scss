@@ -1,11 +1,13 @@
 .consultation {
     min-height: 340px;
     padding-bottom: 58px;
+
     &__form {
         position: relative;
         margin-top: 71px;
         min-height: 166px;
         border: solid 1px #898989;
+
         &-img {
             display: block;
             position: absolute;
@@ -15,10 +17,12 @@
             padding: 0 8px;
             background-color: white;
         }
+
         &-input {
             margin-top: 68px;
             text-align: center;
         }
+
         &-btn {
             display: block;
             position: absolute;
@@ -29,6 +33,7 @@
             background-color: white;
         }
     }
+
     &__input {
         width: 268px;
         height: 45px;

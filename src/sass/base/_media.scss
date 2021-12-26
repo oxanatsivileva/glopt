@@ -1,0 +1,1272 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .title {
+        font-size: 24px;
+
+        &_fz16 {
+            font-size: 15px;
+        }
+
+        &_fz18 {
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+    }
+
+    .header,
+    .footer {
+        &__logo {
+            img {
+                margin-top: 5px;
+                width: 90px;
+                height: 94px;
+            }
+        }
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__phone {
+            font-size: 15px;
+        }
+
+
+    }
+
+    .header {
+
+        &__nav {
+            width: 526px;
+        }
+
+        &__menu {
+            padding-top: 34px;
+        }
+
+        &__item {
+            padding: 0 10px;
+        }
+
+        &__link {
+            font-size: 13px;
+        }
+
+    }
+
+    .btn {
+        width: 150px;
+        height: 43px;
+        font-size: 11px;
+    }
+
+    .promo {
+        min-height: 640px;
+        padding-bottom: 70px;
+
+        &__text {
+            font-size: 20px;
+        }
+
+        &__header {
+            margin-top: 20px;
+            font-size: 50px;
+            line-height: 50px;
+        }
+
+        &__subheader {
+            font-size: 30px;
+            line-height: 30px;
+        }
+
+        &__line {
+            margin-top: 33px;
+            width: 680px;
+        }
+
+        &__divider {
+            width: 320px;
+        }
+
+        &__circle {
+            width: 9px;
+            height: 9px;
+        }
+
+        &__descr {
+            font-size: 14px;
+        }
+
+        &__btn {
+            margin-top: 30px;
+            width: 220px;
+            height: 54px;
+            font-size: 14px;
+        }
+    }
+
+    .advantages {
+        padding-top: 50px;
+
+        &__items {
+            padding: 30px;
+            column-gap: 55px;
+            row-gap: 20px;
+
+            &-item {
+                grid-template-columns: 64px 345px;
+            }
+        }
+    }
+
+    .job {
+        min-height: 585px;
+        padding-top: 35px;
+
+        &__wrapper {
+            padding-bottom: 35px;
+        }
+
+        &__item {
+            max-width: 310px;
+
+        }
+
+        &__img {
+            margin-bottom: 20px;
+            width: 310px;
+            height: 180px;
+        }
+    }
+
+
+    .prices,
+    .schema,
+    .feed,
+    .questions {
+        padding: 35px 0;
+    }
+
+    .job,
+    .prices,
+    .feed {
+        &__text {
+            padding: 17px 130px;
+            font-size: 20px;
+        }
+
+    }
+
+    .prices {
+
+        &__tab {
+            width: 230px;
+            height: 322px;
+
+            &-header {
+                height: 50px;
+
+                p {
+                    font-size: 15px;
+                }
+            }
+
+
+            &-span {
+                font-size: 23px;
+            }
+
+            &-text {
+                margin: 10px 0 15px 0;
+                font-size: 12px;
+            }
+
+        }
+    }
+
+    .schema {
+        &__item {
+            width: 200px;
+        }
+    }
+
+    .feed {
+
+        &__slider {
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        &__subtitle {
+            line-height: 18px;
+        }
+
+    }
+
+    .questions {
+        min-height: 350px;
+    }
+
+    .contacts {
+        height: 430px;
+
+        &__info {
+            top: 96px;
+        }
+    }
+
+    .footer {
+        min-height: 170px;
+
+        &__logo {
+            padding-top: 0;
+        }
+
+        p {
+            margin: 0;
+            padding: 43px 0 35px 44px;
+        }
+
+        &__contacts {
+            height: 82px;
+            padding-top: 25px;
+        }
+
+        &__divider {
+            margin-top: 25px;
+        }
+
+        &__info {
+            padding: 25px 0 30px 0;
+        }
+
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .title {
+        &_fz26 {
+            font-size: 23px;
+        }
+
+        &_fz18 {
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+        &_fz16 {
+            font-size: 14px;
+            text-align: left;
+            line-height: 18px;
+        }
+
+    }
+
+    .divider {
+        width: 130px;
+    }
+
+    .header,
+    .footer {
+        &__logo {
+            img {
+                width: 85px;
+                height: 89px;
+            }
+        }
+
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            padding-top: 5px;
+        }
+
+        &__call {
+            padding-right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        &__text {
+            font-size: 13px;
+            line-height: 18px;
+        }
+
+        &__phone {
+            font-size: 14px;
+        }
+
+
+    }
+
+    .header {
+        &__nav {
+            width: 475px;
+        }
+
+        &__item {
+            padding: 0 8px;
+        }
+
+        &__link {
+            font-size: 12px;
+        }
+    }
+
+    .btn {
+        width: 135px;
+        height: 35px;
+        font-size: 10px;
+        margin-top: 4px;
+    }
+
+    .promo {
+        min-height: 554px;
+        padding-bottom: 65px;
+
+        &__text {
+            font-size: 18px;
+        }
+
+        &__header {
+            margin-top: 15px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        &__subheader {
+            font-size: 23px;
+            line-height: 23px;
+        }
+
+        &__line {
+            margin-top: 25px;
+            width: 530px;
+        }
+
+        &__divider {
+            width: 250px;
+            height: 1px;
+        }
+
+        &__circle {
+            width: 6px;
+            height: 6px;
+        }
+
+        &__descr {
+            margin-top: 7px;
+            font-size: 11px;
+            padding: 0 10px;
+            line-height: 18px;
+        }
+
+        &__btn {
+            margin-top: 17px;
+            width: 190px;
+            height: 45px;
+            font-size: 13px;
+        }
+
+    }
+
+    .advantages {
+        padding-top: 30px;
+
+        &__items {
+            padding: 25px 20px;
+            column-gap: 30px;
+            row-gap: 10px;
+
+            &-item {
+                grid-template-columns: 64px 247px;
+            }
+
+            &-text {
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+
+    }
+
+    .job,
+    .prices,
+    .feed {
+        &__text {
+            padding: 17px 27px;
+            font-size: 17px;
+
+        }
+
+    }
+
+
+    .job {
+        min-height: 537px;
+
+        &__wrapper {
+            padding-bottom: 30px;
+        }
+
+        &__item {
+            max-width: 230px;
+
+        }
+
+        &__img {
+            margin-bottom: 20px;
+            width: 230px;
+            height: 145px;
+        }
+
+        &__descr {
+            font-size: 13px;
+            line-height: 18px;
+            text-align: justify;
+        }
+
+    }
+
+    .agent,
+    .manager {
+        min-height: 330px;
+
+        &__wrapper {
+            padding: 40px 77px;
+        }
+
+        &__descr {
+            margin-top: 10px;
+            font-size: 17px;
+            line-height: 26px;
+        }
+    }
+
+    .prices {
+        padding: 35px 0 0 0;
+
+        &__tab {
+            width: 265px;
+            margin-bottom: 35px;
+        }
+
+        &__tabs {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+
+    .consultation {
+        min-height: 300px;
+        padding-bottom: 50px;
+
+        &__input {
+            width: 230px;
+        }
+    }
+
+    .schema {
+
+        &__item {
+            width: 138px;
+            margin-top: 10px;
+        }
+
+        &__text {
+            font-size: 12px;
+            text-align: justify;
+        }
+    }
+
+    .feed {
+        &__img {
+            width: 100px;
+            height: 100px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+        &__descr {
+            font-size: 13px;
+            line-height: 18px;
+        }
+
+
+        .slick {
+            &-prev {
+                top: 8%;
+                left: 39%;
+            }
+
+            &-next {
+                top: 8%;
+                right: 39%;
+            }
+
+        }
+
+
+    }
+
+    .questions {
+        &__request {
+            width: 720px;
+            min-height: 280px;
+        }
+
+        &__textarea {
+            margin: 15px 0 15px 0;
+            width: 680px;
+        }
+    }
+
+    .modal {
+        width: 720px;
+        min-height: 200px;
+    }
+
+    .questions,
+    .modal {
+        &__header {
+            padding-top: 10px;
+            height: 60px;
+        }
+
+        &__title {
+            font-size: 17px;
+        }
+
+        &__subtitle {
+            font-size: 13px;
+        }
+
+        &__form {
+            &-input {
+                margin-top: 15px;
+
+            }
+        }
+
+        &__input {
+            width: 226px;
+            height: 40px;
+        }
+
+    }
+
+
+    .contacts {
+        height: 400px;
+
+        &__info {
+            top: 80px;
+            width: 309px;
+            left: 49%;
+        }
+
+        &__descr,
+        &__link {
+            font-size: 13px;
+        }
+
+    }
+
+    .footer {
+        &__promo {
+            p {
+                padding-top: 39px;
+            }
+        }
+
+        &__divider {
+            margin-top: 20px;
+        }
+
+        &__info {
+            padding: 20px 0 25px 0;
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    .divider {
+        margin-top: 17px;
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 20px;
+
+        &_fz18 {
+            font-size: 17px;
+            line-height: 17px;
+        }
+
+        &_fz16 {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+    }
+
+    .hamburger {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        background-color: #212121;
+        z-index: 5;
+
+        &__wrapper {
+            position: absolute;
+            display: block;
+            width: 26px;
+            height: 12px;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            span {
+                display: block;
+                margin-bottom: 2px;
+                height: 2px;
+                width: 100%;
+                background-color: #fff;
+                transition: 0.5s all;
+            }
+
+            &_active {
+                span {
+                    margin-bottom: -2px;
+
+                    &:first-child {
+                        transform: translateY(3px) rotate(-45deg);
+                    }
+
+                    &:nth-child(2) {
+                        display: none;
+                    }
+
+                    &:nth-child(3) {
+                        transform: translateY(3px) rotate(45deg);
+                    }
+
+
+                }
+            }
+        }
+
+    }
+
+    .header {
+
+        &__logo {
+            display: none;
+        }
+
+        &__contacts {
+            display: none;
+        }
+
+        &__menu {
+            z-index: 4;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100vh;
+            padding: 20px 15px;
+            background-color: rgba(0, 0, 0, .8);
+            transition: 0.6s all;
+
+
+            &_active {
+                left: 0;
+            }
+        }
+
+        &__item {
+            padding-right: 0;
+            border: none;
+            margin: 12px 0;
+        }
+
+        &__link {
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+    }
+
+    .promo {
+        min-height: 534px;
+        padding-bottom: 55px;
+
+        &__wrapper {
+            padding-top: 60px;
+        }
+
+        &__header {
+            margin-top: 8px;
+            font-size: 35px;
+            line-height: 35px;
+        }
+
+        &__subheader {
+            font-size: 21px;
+            line-height: 10px;
+        }
+
+        &__line {
+            width: 474px;
+        }
+
+        &__divider {
+            width: 220px;
+        }
+
+    }
+
+    .advantages {
+
+        &__items {
+            padding: 15px 20px;
+            grid-template-columns: repeat(auto-fit, 500px);
+            grid-auto-rows: minmax(90px, auto);
+
+            &-item {
+                grid-template-columns: 64px 423px;
+            }
+        }
+
+    }
+
+    .job,
+    .prices,
+    .questions {
+        padding-top: 30px;
+    }
+
+    .job,
+    .prices,
+    .feed {
+        &__text {
+            padding: 15px 27px 0 25px;
+            font-size: 15px;
+        }
+    }
+
+    .job {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item {
+            max-width: 280px;
+        }
+
+        &__img {
+            margin-top: 20px;
+            width: 280px;
+            height: 165px;
+        }
+
+    }
+
+    .prices {
+
+        &__tabs {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__tab {
+            width: 230px;
+            margin-bottom: 30px;
+        }
+
+    }
+
+    .consultation {
+        &__input {
+            width: 170px;
+        }
+    }
+
+    .schema,
+    .feed {
+        padding: 30px 0;
+    }
+
+    .schema {
+
+        &__item {
+            width: 245px;
+        }
+
+        &__text {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+
+    .feed {
+        min-height: 415px;
+
+        .slick {
+            &-prev {
+                top: 12%;
+                left: 36%;
+            }
+
+            &-next {
+                top: 11%;
+                left: 61%;
+            }
+        }
+
+    }
+
+    .questions,
+    .modal {
+        &__header {
+            padding-top: 8px;
+            height: 50px;
+        }
+
+
+        &__title {
+            font-size: 15px;
+        }
+
+
+        &__subtitle {
+            font-size: 11px;
+        }
+
+        &__form {
+            &-input {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+        }
+
+        &__input {
+            width: 240px;
+            margin-bottom: 5px;
+        }
+
+
+
+    }
+
+    .questions {
+        &__request {
+            min-height: 350px;
+            width: 315px;
+        }
+
+        &__textarea {
+            width: 240px;
+            margin: 5px 0 8px 0;
+        }
+
+    }
+
+    .modal {
+        min-height: 285px;
+        width: 350px;
+
+        &__close {
+            top: 6px;
+            right: 8px;
+        }
+
+    }
+
+
+    .contacts {
+        height: 360px;
+
+        &__info {
+            width: 270px;
+            padding: 27px 29px;
+            top: 61px;
+            left: 45%;
+        }
+
+    }
+
+    .footer {
+        min-height: 150px;
+
+        &__logo {
+            img {
+                width: 58px;
+                height: 62px;
+
+            }
+        }
+
+        &__promo {
+            p {
+                display: none;
+            }
+        }
+
+        &__contacts {
+            flex-direction: row;
+            padding-top: 12px;
+        }
+
+        &__phone {
+            font-size: 12px;
+        }
+
+        &__divider {
+            margin-top: 5px;
+        }
+
+        &__mark,
+        &__policy {
+            font-size: 11px;
+        }
+    }
+
+    .btn {
+        width: 120px;
+        margin-left: 10px;
+    }
+
+}
+
+
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .title {
+        font-size: 15px;
+        line-height: 20px;
+
+        &_fz28 {
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+
+        &_fz26 {
+            font-size: 17px;
+        }
+
+        &_fz16 {
+            font-size: 13px;
+        }
+
+    }
+
+    .divider {
+        width: 120px;
+        margin-top: 13px;
+    }
+
+
+
+    .hamburger {
+        height: 35px;
+    }
+
+    .promo {
+        padding-bottom: 45px;
+
+        &__text {
+            font-size: 9px;
+            text-transform: uppercase;
+        }
+
+        &__header {
+            font-size: 21px;
+            line-height: 21px;
+        }
+
+        &__subheader {
+            font-size: 12px;
+        }
+
+        &__items {
+            margin-top: 27px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__line {
+            margin-top: 17px;
+            width: 292px;
+        }
+
+        &__divider {
+            width: 130px;
+        }
+
+        &__circle {
+            width: 4px;
+            height: 4px;
+        }
+
+        &__items {
+            margin-top: 17px;
+        }
+
+
+        &__descr {
+            font-size: 12px;
+            padding: 0 40px;
+        }
+
+        &__btn {
+            margin-top: 11px;
+            width: 165px;
+            height: 40px;
+            font-size: 12px;
+        }
+    }
+
+    .header {
+        &__menu {
+            width: 85%;
+        }
+    }
+
+    .advantages {
+        padding-top: 20px;
+
+        &__items {
+            padding: 5px;
+            grid-template-columns: repeat(auto-fit, 290px);
+            grid-auto-rows: minmax(90px, auto);
+
+            &-item {
+                grid-template-columns: 64px 213px;
+            }
+
+            &-text {
+                font-size: 12px;
+            }
+
+        }
+
+    }
+
+    .job,
+    .prices,
+    .questions {
+        padding-top: 20px;
+    }
+
+    .job,
+    .prices,
+    .feed {
+        &__text {
+            padding: 13px 10px 0 10px;
+            font-size: 14px;
+        }
+    }
+
+
+    .job {
+
+        &__wrapper {
+            padding-bottom: 20px;
+        }
+
+        &__img {
+            margin-top: 15px;
+        }
+    }
+
+    .agent,
+    .manager {
+
+        &__wrapper {
+            padding: 35px 32px;
+        }
+
+        &__descr {
+            margin-top: 5px;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: justify;
+        }
+    }
+
+    .consultation {
+        &__form {
+            min-height: 265px;
+
+            &-btn {
+                transform: translateX(-50%) translateY(255%);
+            }
+        }
+
+        &__input {
+            width: 190px;
+            height: 40px;
+            margin-bottom: 15px;
+        }
+
+    }
+
+    .schema,
+    .feed {
+        padding: 20px 0;
+    }
+
+
+    .schema {
+
+        &__item {
+            width: 245px;
+        }
+
+        &__text {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    .feed {
+        .slick {
+            &-prev {
+                top: 8%;
+                left: 25%;
+            }
+
+            &-next {
+                top: 8%;
+                left: 70%;
+            }
+        }
+
+    }
+
+    .questions,
+    .modal {
+        &__input {
+            width: 215px;
+        }
+    }
+
+    .modal {
+        width: 270px;
+
+        &__header {
+            padding-top: 10px;
+        }
+
+        &__title {
+            font-size: 11px;
+        }
+
+        &__subtitle {
+            font-size: 9px;
+        }
+
+        &__close {
+            font-size: 30px;
+        }
+
+    }
+
+    .questions {
+
+        &__request {
+            min-height: 345px;
+            width: 270px;
+        }
+
+        &__textarea {
+            width: 215px;
+        }
+    }
+
+    .contacts {
+
+        &__info {
+            width: 250px;
+            padding: 27px;
+            top: 61px;
+            left: 56%;
+        }
+
+        &__descr {
+            font-size: 12px;
+        }
+    }
+
+
+    .footer {
+        min-height: 118px;
+
+        &__wrapper {
+            height: 65px;
+        }
+
+        &__logo {
+            img {
+                width: 52px;
+                height: 56px;
+            }
+        }
+
+        &__text,
+        &__phone {
+            font-size: 11px;
+        }
+
+        &__info {
+            padding: 15px 0;
+        }
+
+        &__mark,
+        &__policy {
+            font-size: 10px;
+        }
+
+        .btn {
+            display: none;
+        }
+    }
+
+}

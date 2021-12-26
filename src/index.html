@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon//android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
@@ -28,8 +29,17 @@
     <link rel="stylesheet" href="css/style.min.css">
 
 </head>
+
 <body>
     <section class="promo">
+        <div class="hamburger">
+            <div class="hamburger__wrapper">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
         <div class="container">
             <header class="header">
                 <div class="header__logo">
@@ -37,12 +47,12 @@
                 </div>
                 <nav class="header__nav">
                     <ul class="header__menu">
-                        <li class="header__item"><a href="#" class="header__link">Преимущества</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Наша работа</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Цены</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Схема работы </a></li>
-                        <li class="header__item"><a href="#" class="header__link">Отзывы </a></li>
-                        <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+                        <li class="header__item"><a href="#advantages" class="header__link">Преимущества</a></li>
+                        <li class="header__item"><a href="#job" class="header__link">Наша работа</a></li>
+                        <li class="header__item"><a href="#prices" class="header__link">Цены</a></li>
+                        <li class="header__item"><a href="#schema" class="header__link">Схема работы </a></li>
+                        <li class="header__item"><a href="#feed" class="header__link">Отзывы </a></li>
+                        <li class="header__item"><a href="#contacts" class="header__link">Контакты</a></li>
                     </ul>
                 </nav>
                 <div class="header__contacts">
@@ -73,7 +83,8 @@
                         <div class="promo__icon">
                             <img src="icons/promo/code.svg" alt="code">
                         </div>
-                        <p class="promo__descr">Самостоятельно декларируем и <br>проводим таможенную очистку с оптимизацией кодов и ставок</p>
+                        <p class="promo__descr">Самостоятельно декларируем и <br>проводим таможенную очистку с
+                            оптимизацией кодов и ставок</p>
                     </div>
                     <div class="promo__item">
                         <div class="promo__icon">
@@ -85,7 +96,7 @@
                         <div class="promo__icon">
                             <img src="icons/promo/express.svg" alt="express">
                         </div>
-                        <p class="promo__descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг  </p>
+                        <p class="promo__descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг </p>
                     </div>
                 </div>
                 <button data-modal="consultation" class="promo__btn">Получить расчет</button>
@@ -93,7 +104,7 @@
         </div>
     </section>
 
-    <section class="advantages">
+    <section class="advantages" id="advantages">
         <div class="container">
             <h2 class="title">Преимущества работы с Global Opt</h2>
             <div class="advantages__items">
@@ -103,7 +114,8 @@
                     </div>
                     <div>
                         <h3 class="title title_fz16">Офисы в Китае и России</h3>
-                        <p class="advantages__items-text">Офисы расположены в Москве, столице России.  И в Гуанчжоу, мировом торговом мегаполисе Китая.</p>
+                        <p class="advantages__items-text">Офисы расположены в Москве, столице России. И в Гуанчжоу,
+                            мировом торговом мегаполисе Китая.</p>
                     </div>
                 </div>
                 <div class="advantages__items-item">
@@ -112,7 +124,8 @@
                     </div>
                     <div>
                         <h3 class="title title_fz16">Декларируем груз с оптимизацией</h3>
-                        <p class="advantages__items-text">Идем на встречу своим клиентам и помогаем растаможить груз с оптимизацией кодов и ставок.</p>    
+                        <p class="advantages__items-text">Идем на встречу своим клиентам и помогаем растаможить груз с
+                            оптимизацией кодов и ставок.</p>
                     </div>
                 </div>
                 <div class="advantages__items-item">
@@ -121,7 +134,8 @@
                     </div>
                     <div>
                         <h3 class="title title_fz16">Квалифицированные кадры</h3>
-                        <p class="advantages__items-text">Наши сотрудники имеют большой опыт в логистике с Китаем и в совершенстве владеют китайским и английским языками.</p>
+                        <p class="advantages__items-text">Наши сотрудники имеют большой опыт в логистике с Китаем и в
+                            совершенстве владеют китайским и английским языками.</p>
                     </div>
                 </div>
                 <div class="advantages__items-item">
@@ -130,7 +144,8 @@
                     </div>
                     <div>
                         <h3 class="title title_fz16">Осуществляем поиск производителей</h3>
-                        <p class="advantages__items-text">Помогаем нашим клиентам найти интересующий вас товар или производителя в Китае.</p>
+                        <p class="advantages__items-text">Помогаем нашим клиентам найти интересующий вас товар или
+                            производителя в Китае.</p>
                     </div>
                 </div>
                 <div class="advantages__items-item">
@@ -139,7 +154,8 @@
                     </div>
                     <div>
                         <h3 class="title title_fz16">Собственный склад в Китае</h3>
-                        <p class="advantages__items-text">Свой склад в Китае, позволяет собирать и проверять и упаковывать  ваши товары, перед отправкой.</p>
+                        <p class="advantages__items-text">Свой склад в Китае, позволяет собирать и проверять и
+                            упаковывать ваши товары, перед отправкой.</p>
                     </div>
                 </div>
                 <div class="advantages__items-item">
@@ -148,7 +164,8 @@
                     </div>
                     <div>
                         <h3 class="title title_fz16">Перевод денег в Китай</h3>
-                        <p class="advantages__items-text">Помогаем переводить и оплачивать товар в Китае на льготных условиях</p>
+                        <p class="advantages__items-text">Помогаем переводить и оплачивать товар в Китае на льготных
+                            условиях</p>
                     </div>
                 </div>
                 <div class="advantages__items-item">
@@ -157,7 +174,9 @@
                     </div>
                     <div>
                         <h3 class="title title_fz16">Делаем оптовые поставки под ключ</h3>
-                        <p class="advantages__items-text">Берём на себя все заботы связанные с  закупкой, проверкой на качество, логистикой и растаможкой. От вас требуется лишь заполнить техническое задание, одобрить  образцы товаров и после принять товар на своём складе!</p>
+                        <p class="advantages__items-text">Берём на себя все заботы связанные с закупкой, проверкой на
+                            качество, логистикой и растаможкой. От вас требуется лишь заполнить техническое задание,
+                            одобрить образцы товаров и после принять товар на своём складе!</p>
                     </div>
                 </div>
                 <div class="advantages__items-item">
@@ -166,14 +185,17 @@
                     </div>
                     <div>
                         <h3 class="title title_fz16">Поездка на производство в Китай</h3>
-                        <p class="advantages__items-text">У нас большой опыт в бизнес поездках по Китаю. Мы с большой радостью и желанием организуем вам такую поездку в Китай под ключ. Сделаем визу, трансфер из аэропорта, забронируем отель, предоставим переводчика. Организуем поездку на производство. Шоп тур. Мебельный тур. </p>
+                        <p class="advantages__items-text">У нас большой опыт в бизнес поездках по Китаю. Мы с большой
+                            радостью и желанием организуем вам такую поездку в Китай под ключ. Сделаем визу, трансфер из
+                            аэропорта, забронируем отель, предоставим переводчика. Организуем поездку на производство.
+                            Шоп тур. Мебельный тур. </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="job">
+    <section class="job" id="job">
         <div class="container">
             <h2 class="title">Наша работа - больше чем просто доставка</h2>
             <div class="divider"></div>
@@ -184,21 +206,26 @@
                     <img src="img/job/insurance.jpg" alt="insurance" class="job__img">
                     <h3 class="title title_fz18">Страховка груза</h3>
                     <p class="job__descr">
-                        Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.
+                        Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное
+                        возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги
+                        наша компания берет на себя.
                     </p>
                 </div>
                 <div class="job__item">
                     <img src="img/job/logistics.jpg" alt="logistics" class="job__img">
                     <h3 class="title title_fz18">Логистика последней мили</h3>
                     <p class="job__descr">
-                        Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед- жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчи- ков по месту доставки груза.
+                        Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед-
+                        жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги
+                        грузчи- ков по месту доставки груза.
                     </p>
                 </div>
                 <div class="job__item">
                     <img src="img/job/look.jpg" alt="look" class="job__img">
                     <h3 class="title title_fz18">Мы всегда смотрим вперед</h3>
                     <p class="job__descr">
-                        Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях. 
+                        Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми.
+                        Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях.
                     </p>
                 </div>
             </div>
@@ -211,18 +238,19 @@
                 <img src="icons/agent/agent.svg" alt="agent" class="agent__icon">
                 <h2 class="title title_fz26">Агент в Китае</h2>
                 <p class="agent__descr">
-                    Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.
+                    Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать
+                    Вашим запросам как по качеству, так и по цене.
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="prices">
+    <section class="prices" id="prices">
         <div class="container">
             <h2 class="title">Цены на любой вариант доставки</h2>
             <div class="divider"></div>
             <p class="prices__text">
-                Перевозки грузов на дальние расстояния без каких-либо ограничений. Любой груз доставим вовремя. 
+                Перевозки грузов на дальние расстояния без каких-либо ограничений. Любой груз доставим вовремя.
             </p>
             <div class="prices__tabs">
                 <div class="prices__tab">
@@ -231,20 +259,20 @@
                     </div>
                     <div class="prices__tab-content">
                         <div class="prices__tab-icon">
-                            <img src="icons/prices/ship.svg" alt="ship" >
+                            <img src="icons/prices/ship.svg" alt="ship">
                         </div>
                         <div class="prices__tab-subheader">Доставка 35-50 дней</div>
                         <span class="prices__tab-span">от 0,3$ за 1 кг</span>
                         <p class="prices__tab-text">
                             Морские перевозки грузов из Китая <br>в Россию за 35 дней <br>
-                            с прохождением таможни 
+                            с прохождением таможни
                         </p>
                         <button data-modal="consultation" class="btn">Подробнее</button>
                     </div>
                 </div>
                 <div class="prices__tab">
                     <div class="prices__tab-header">
-                       <p>Ж/Д доставка</p> 
+                        <p>Ж/Д доставка</p>
                     </div>
                     <div class="prices__tab-content">
                         <div class="prices__tab-icon">
@@ -269,9 +297,9 @@
                         <div class="prices__tab-subheader">Доставка 12-20 дня</div>
                         <span class="prices__tab-span">от 1$ за 1 кг</span>
                         <p class="prices__tab-text">
-                            Автоперевозки грузов из Китая в Россию от 2 недель <br>с прохождением таможни                    
+                            Автоперевозки грузов из Китая в Россию от 2 недель <br>с прохождением таможни
                         </p>
-                        <button data-modal="consultation" class="btn">Подробнее</button>    
+                        <button data-modal="consultation" class="btn">Подробнее</button>
                     </div>
                 </div>
                 <div class="prices__tab">
@@ -285,9 +313,9 @@
                         <div class="prices__tab-subheader">Доставка 1-12 дней</div>
                         <span class="prices__tab-span">от 6$ за 1 кг</span>
                         <p class="prices__tab-text">
-                            Авиаперевозки грузов из Китая в Россию до 2 недель <br>с прохождением таможни                    
+                            Авиаперевозки грузов из Китая в Россию до 2 недель <br>с прохождением таможни
                         </p>
-                        <button data-modal="consultation" class="btn">Подробнее</button>    
+                        <button data-modal="consultation" class="btn">Подробнее</button>
                     </div>
                 </div>
             </div>
@@ -319,13 +347,14 @@
                 <img src="icons/manager/manager.svg" alt="manager" class="manager__icon">
                 <h2 class="title title_fz26">Менеджеры компании</h2>
                 <p class="manager__descr">
-                    Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.
+                    Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые
+                    поставки от завода-изготовителя.
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="schema">
+    <section class="schema" id="schema">
         <div class="container">
             <h2 class="title">Схема работы с нами</h2>
             <div class="schema__items">
@@ -333,61 +362,64 @@
                     <div class="schema__icon">
                         <img src="icons/schema/application.svg" alt="application">
                     </div>
-                        <h3 class="title title_fz16">Заявка</h3>
-                        <p class="schema__text">Вы оставляете заявку на нашем сайте или звоните нам</p>
+                    <h3 class="title title_fz16">Заявка</h3>
+                    <p class="schema__text">Вы оставляете заявку на нашем сайте или звоните нам</p>
                 </div>
                 <div class="schema__item">
                     <div class="schema__icon">
                         <img src="icons/schema/analytics.svg" alt="analytics">
                     </div>
-                        <h3 class="title title_fz16">Аналитика доставки</h3>
-                        <p class="schema__text">Мы просчитываем варианты доставки Вашего груза</p>
+                    <h3 class="title title_fz16">Аналитика доставки</h3>
+                    <p class="schema__text">Мы просчитываем варианты доставки Вашего груза</p>
                 </div>
                 <div class="schema__item">
                     <div class="schema__icon">
                         <img src="icons/schema/contract.svg" alt="contract">
                     </div>
-                        <h3 class="title title_fz16">Договор</h3>
-                        <p class="schema__text">Заключаем с Вами договор о поставке груза из Китая</p>
+                    <h3 class="title title_fz16">Договор</h3>
+                    <p class="schema__text">Заключаем с Вами договор о поставке груза из Китая</p>
                 </div>
                 <div class="schema__item">
                     <div class="schema__icon">
                         <img src="icons/schema/warehouse.svg" alt="warehouse">
                     </div>
-                        <h3 class="title title_fz16">Доставка на наш склад</h3>
-                        <p class="schema__text">Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад</p>
+                    <h3 class="title title_fz16">Доставка на наш склад</h3>
+                    <p class="schema__text">Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на
+                        наш склад</p>
                 </div>
                 <div class="schema__item">
                     <div class="schema__icon">
                         <img src="icons/schema/check.svg" alt="check">
                     </div>
-                        <h3 class="title title_fz16">Проверка груза</h3>
-                        <p class="schema__text">Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе</p>
+                    <h3 class="title title_fz16">Проверка груза</h3>
+                    <p class="schema__text">Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём
+                        складе</p>
                 </div>
                 <div class="schema__item">
                     <div class="schema__icon">
                         <img src="icons/schema/delivery.svg" alt="delivery">
                     </div>
-                        <h3 class="title title_fz16">Доставка груза</h3>
-                        <p class="schema__text">Мы перевозим ваш груз до места назначения и производим таможенную очистку</p>
+                    <h3 class="title title_fz16">Доставка груза</h3>
+                    <p class="schema__text">Мы перевозим ваш груз до места назначения и производим таможенную очистку
+                    </p>
                 </div>
                 <div class="schema__item">
                     <div class="schema__icon">
                         <img src="icons/schema/payment.svg" alt="payment">
                     </div>
-                        <h3 class="title title_fz16">Оплата</h3>
-                        <p class="schema__text">Оплачиваете доставку груза при получении</p>
+                    <h3 class="title title_fz16">Оплата</h3>
+                    <p class="schema__text">Оплачиваете доставку груза при получении</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="feed">
+    <section class="feed" id="feed">
         <div class="container">
             <h2 class="title feed__title">отзывы наших клиентов</h2>
             <div class="divider"></div>
             <p class="feed__text">
-                Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова 
+                Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова
             </p>
         </div>
         <div class="feed__slider">
@@ -395,42 +427,52 @@
                 <img src="img/slider/olga.jpg" alt="Ольга Анисимова" class="feed__img">
                 <div class="feed__subtitle">Ольга Анисимова</div>
                 <div class="feed__descr">
-                    Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, до больших партий детской одежды. Буду продолжать пользоваться услугамиданной компании
+                    Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ
+                    определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, до
+                    больших партий детской одежды. Буду продолжать пользоваться услугамиданной компании
                 </div>
             </div>
             <div class="feed__slider-item">
                 <img src="img/slider/sergei.jpg" alt="Сергей Валиев" class="feed__img">
                 <div class="feed__subtitle">Сергей Валиев</div>
                 <div class="feed__descr">
-                    Благодарю компанию Global Opt за оперативность в доставке груза. За деловую этику и подход ксотрудничеству
+                    Благодарю компанию Global Opt за оперативность в доставке груза. За деловую этику и подход
+                    ксотрудничеству
                 </div>
             </div>
             <div class="feed__slider-item">
                 <img src="img/slider/dmitrii.jpg" alt="Дмитрий Иванов" class="feed__img">
                 <div class="feed__subtitle">Дмитрий Иванов</div>
                 <div class="feed__descr">
-                    Хотел выразить благодарность всему коллективу компании Global Opt за грамотно построенную схему отправки. Раньше я часто менял транспортные компании. А сейчас уже 3 года работаю с вашей компанией. Меня все устраивает. Нареканий нет. Рекомендую к сотрудничеству
+                    Хотел выразить благодарность всему коллективу компании Global Opt за грамотно построенную схему
+                    отправки. Раньше я часто менял транспортные компании. А сейчас уже 3 года работаю с вашей компанией.
+                    Меня все устраивает. Нареканий нет. Рекомендую к сотрудничеству
                 </div>
             </div>
             <div class="feed__slider-item">
                 <img src="img/slider/olga.jpg" alt="Ольга Анисимова" class="feed__img">
                 <div class="feed__subtitle">Ольга Анисимова</div>
                 <div class="feed__descr">
-                    Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, до больших партий детской одежды. Буду продолжать пользоваться услугамиданной компании
+                    Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ
+                    определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, до
+                    больших партий детской одежды. Буду продолжать пользоваться услугамиданной компании
                 </div>
             </div>
             <div class="feed__slider-item">
                 <img src="img/slider/sergei.jpg" alt="Сергей Валиев" class="feed__img">
                 <div class="feed__subtitle">Сергей Валиев</div>
                 <div class="feed__descr">
-                    Благодарю компанию Global Opt за оперативность в доставке груза. За деловую этику и подход к сотрудничеству
+                    Благодарю компанию Global Opt за оперативность в доставке груза. За деловую этику и подход к
+                    сотрудничеству
                 </div>
             </div>
             <div class="feed__slider-item">
                 <img src="img/slider/dmitrii.jpg" alt="Дмитрий Иванов" class="feed__img">
                 <div class="feed__subtitle">Дмитрий Иванов</div>
                 <div class="feed__descr">
-                    Хотел выразить благодарность всему коллективу компании Global Opt за грамотно построенную схему отправки. Раньше я часто менял транспортные компании. А сейчас уже 3 года работаю с вашей компанией. Меня все устраивает. Нареканий нет. Рекомендую к сотрудничеству
+                    Хотел выразить благодарность всему коллективу компании Global Opt за грамотно построенную схему
+                    отправки. Раньше я часто менял транспортные компании. А сейчас уже 3 года работаю с вашей компанией.
+                    Меня все устраивает. Нареканий нет. Рекомендую к сотрудничеству
                 </div>
             </div>
         </div>
@@ -458,8 +500,10 @@
         </div>
     </section>
 
-    <section class="contacts">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A99da4f89f45be8663f6bb5d4be2a52fac69f5cd2a6dcc6f5990edbd690aaa3d0&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=false"></script>
+    <section class="contacts" id="contacts">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A99da4f89f45be8663f6bb5d4be2a52fac69f5cd2a6dcc6f5990edbd690aaa3d0&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false">
+        </script>
         <div class="contacts__info">
             <div class="title title_fz16">г. Москва</div>
             <div class="contacts__descr">
@@ -478,23 +522,20 @@
                     <div class="footer__logo">
                         <img src="icons/logo/logo.svg" alt="logo">
                     </div>
-                    <p class="footer__text">Global Opt - Доставка грузов из Китая в Россию и СНГ</p>
+                    <p>Global Opt - Доставка грузов из Китая в Россию и СНГ</p>
                 </div>
                 <div class="footer__contacts">
                     <div class="footer__call">
-                        <div class="footer__question">Есть вопросы?</div>
+                        <div class="footer__text">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="footer__phone">+7 (926) 423 01 00</a>
                     </div>
                     <button data-modal="consultation" class="btn">Перезвоните мне</button>
-                </div>    
+                </div>
             </div>
-        </div>
-        </div>
-        <div class="footer__divider"></div>
-        <div class="container">
+            <div class="footer__divider"></div>
             <div class="footer__info">
                 <div class="footer__mark">© 2010 Scratch.com.ua</div>
-                <a href="#" class="footer__policy">Политика конфидециальности</a>
+                <a href="#" class="footer__policy">Политика конфиденциальности</a>
             </div>
         </div>
     </footer>
@@ -517,12 +558,11 @@
                 </div>
             </form>
         </div>
-
-        <div class="modal modal_mini" id="thanks">
+        <!-- <div class="modal modal_mini" id="thanks">
             <div class="modal__title">Спасибо за вашу заявку</div>
             <div class="modal__subtitle">Наш менеджер свяжется с вами в ближайшее время</div>
             <div class="modal__close">&times;</div>
-        </div>
+        </div> -->
     </div>
 
 
@@ -533,4 +573,5 @@
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
